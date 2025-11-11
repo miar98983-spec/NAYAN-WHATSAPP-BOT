@@ -9,13 +9,13 @@ module.exports = {
     description: "Send all my bot links and tutorials",
     categories: "Utility",
     usages: [".allbots"],
-    credit: "Developed by Mohammad Nayan"
+    credit: "Developed by 𓀬✎🅁🄰🅂🄴🄻𓄂🅁🄰🄹♡𓅇"
   },
 
   start: async ({ api, event }) => {
     const { threadId, message } = event;
 
-    const myNumber = "8801615298449";
+    const myNumber = "8801614821578";
     const msg = `🌟 *NAYAN BOT COLLECTION* 🌟
 
 📱 *WhatsApp Bot*
