@@ -7,7 +7,7 @@ module.exports = {
         permission: 0,
         prefix: 'both',
         categorie: 'Fun',
-        credit: 'Developed by Mohammad Nayan',
+        credit: 'Developed by Rasel Raj',
         usages: [
             `${global.config.PREFIX}love 1 @mention - Create a love1 image with the mentioned user.`,
             `${global.config.PREFIX}love 2 @mention - Create a love2 image with the mentioned user.`,
