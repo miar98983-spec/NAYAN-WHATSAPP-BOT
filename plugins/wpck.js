@@ -17,7 +17,7 @@ module.exports = {
 
     if (!numbers.length) {
       return api.sendMessage(threadId, {
-        text: '❌ Please provide one or more phone numbers.\nExample:\n.wpcheck 8801615298449 8801754168148'
+        text: '❌ Please provide one or more phone numbers.\nExample:\n.wpcheck '
       });
     }
 
