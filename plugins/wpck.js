@@ -6,8 +6,8 @@ module.exports = {
     prefix: true,
     description: 'Check if number(s) have WhatsApp accounts.',
     categories: 'Utility',
-    usages: ['.wpcheck 8801615298449 8801754168148'],
-    credit: 'Developed by Mohammad Nayan'
+    usages: ['.wpcheck 8801614821578'],
+    credit: 'Developed by Rasel Raj'
   },
 
   start: async ({ api, args, event }) => {
