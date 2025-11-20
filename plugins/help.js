@@ -9,7 +9,7 @@ module.exports = {
     prefix: true,
     description: 'Lists all available commands by category.',
     category: 'Utility',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Rasel Raj',
     usages: ['help', 'help [command name]'],
   },
 
