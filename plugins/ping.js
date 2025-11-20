@@ -10,7 +10,7 @@ module.exports = {
       'ping',
       'p'
     ],
-    credit: 'Modified by Emon-Bhai'
+    credit: 'Modified by Rasel Raj'
   },
 
   start: async ({ event, api }) => {
