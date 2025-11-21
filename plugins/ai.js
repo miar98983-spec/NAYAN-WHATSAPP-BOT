@@ -9,7 +9,7 @@ module.exports = {
     description: 'AI chatbot using GPT-3 API.',
     categories: 'AI Chat',
     usages: ['.ai on', '.ai off', '.ai hi'],
-    credit: 'Developed by Mohammad Nayan'
+    credit: 'Developed by Rasel Raj'
   },
 
   start: async ({ event, api, args }) => {
