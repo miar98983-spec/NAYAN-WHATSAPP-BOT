@@ -7,7 +7,7 @@ module.exports = {
     description: 'Automatically reacts to messages in a thread.',
     categories: 'utility',
     usages: ['autoreact on', 'autoreact off'],
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Rasel Raj',
   },
 
   start: async ({ event, api, args }) => {
@@ -30,7 +30,7 @@ module.exports = {
   event: async ({ event }) => {
     const { threadId, react } = event;
     const data = await global.data.get('autoreact.json') || {};
-    const emojis = ['👍', '😂', '❤️', '😮', '😢', '😡', '🔥', '😍', '🎉', '🤔', '💯', '👏', '🤩', '👌', '😎'];
+    const emojis = ['👍', '😂', '❤️', '😮', '😢', '😡', '🔥', '😍', '🎉', '🤔', '💯', '👏', '🤩', '👌', '😎' '⚔️', '🙄', '🫵🏻', '🥵', '🤫', '🙈', '🫂', '🧟‍♀️',];
 
     if (data[threadId]) {
       const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
