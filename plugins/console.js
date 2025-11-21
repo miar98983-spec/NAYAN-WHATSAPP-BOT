@@ -1,5 +1,5 @@
 // File: showDetails.js
-// Author: Mohammad Nayan
+// Author: Rasel Raj 
 
 module.exports = {
   config: {
@@ -8,7 +8,7 @@ module.exports = {
     permission: 0,
     prefix: true,
     categorie: 'Utility',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Rasel Raj',
     usages: [
       `${global.config.PREFIX}showDetails - Displays message details for the current event.`,
       `${global.config.PREFIX}details - Alias for showing message details.`,
