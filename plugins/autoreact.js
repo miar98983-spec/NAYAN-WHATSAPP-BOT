@@ -30,7 +30,7 @@ module.exports = {
   event: async ({ event }) => {
     const { threadId, react } = event;
     const data = await global.data.get('autoreact.json') || {};
-    const emojis = ['👍', '😂', '❤️', '😮', '😢', '😡', '🔥', '😍', '🎉', '🤔', '💯', '👏', '🤩', '👌', '😎' '⚔️', '🙄', '🫵🏻', '🥵', '🤫', '🙈', '🫂', '🧟‍♀️',];
+    const emojis = ['👍', '🤡', '❤️', '😮', '😢', '😡', '🔥', '🙀', '🎉',];
 
     if (data[threadId]) {
       const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
