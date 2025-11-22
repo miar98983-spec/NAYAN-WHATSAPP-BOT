@@ -45,7 +45,7 @@ module.exports = {
         let mentions = [];
 
         participants.forEach((participant, index) => {
-            mentionText += `🔹 ${index + 1}. @${participant.id.split('@')[0]}\n`;
+            mentionText += `👁️👃🏻👁️ ${index + 1}. @${participant.id.split('@')[0]}\n`;
             mentions.push(participant.id);
         });
 
