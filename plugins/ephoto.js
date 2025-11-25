@@ -101,7 +101,7 @@ module.exports = {
             msg += `${i + 1}. ${translated}\n`;
         }
 
-        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Nayan`;
+        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Rase"`;
 
         const sent = await api.sendMessage(event.threadId, { text: msg }, { quoted: message });
 
@@ -121,7 +121,7 @@ module.exports = {
         const parts = replyText.split(" ");
 
         if (parts.length < 2) {
-            return api.sendMessage(event.threadId, { text: "❌ Format ভুল\n👉 Example: 1 Nayan" }, { quoted: message });
+            return api.sendMessage(event.threadId, { text: "❌ Format ভুল\n👉 Example: 1 Rasel" }, { quoted: message });
         }
 
         const index = parseInt(parts[0]) - 1;
